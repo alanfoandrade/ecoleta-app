@@ -37,6 +37,7 @@
     "camelcase": "off",
     "@typescript-eslint/camelcase": "off",
     "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-one-expression-per-line":"off",
     "react/jsx-filename-extension": [
       1,
       {

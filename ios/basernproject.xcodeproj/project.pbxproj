@@ -7,38 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* basernprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* basernprojectTests.m */; };
+		00E356F31AD99517003FC87E /* ecoletaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ecoletaTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* basernprojectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* basernprojectTests.m */; };
-		6DE1035BF7DE317FE9E328C2 /* libPods-basernproject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32E30124374EF66F22F144 /* libPods-basernproject.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ecoletaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ecoletaTests.m */; };
+		6DE1035BF7DE317FE9E328C2 /* libPods-ecoleta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32E30124374EF66F22F144 /* libPods-ecoleta.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C5A2E9E15985BB9A5A338FCD /* libPods-basernproject-basernprojectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F36FD6641BD6D81442298FE /* libPods-basernproject-basernprojectTests.a */; };
-		D661D060C3F808F4D682CEBA /* libPods-basernproject-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8010B05BCFEEF7B2DE0098FC /* libPods-basernproject-tvOSTests.a */; };
-		D9D043758AFC733BDBB3991E /* libPods-basernproject-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3286782267089D12A053B /* libPods-basernproject-tvOS.a */; };
+		C5A2E9E15985BB9A5A338FCD /* libPods-ecoleta-ecoletaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F36FD6641BD6D81442298FE /* libPods-ecoleta-ecoletaTests.a */; };
+		D661D060C3F808F4D682CEBA /* libPods-ecoleta-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8010B05BCFEEF7B2DE0098FC /* libPods-ecoleta-tvOSTests.a */; };
+		D9D043758AFC733BDBB3991E /* libPods-ecoleta-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC3286782267089D12A053B /* libPods-ecoleta-tvOS.a */; };
 		C120E60C56464BC2AF32BA44 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33CDC7C31C0F4624A942B9C6 /* Roboto-Bold.ttf */; };
 		F4F92EDB8F124E6199D2E807 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8AFF0567FF94A678398829C /* Roboto-Medium.ttf */; };
 		D30C02DB244945B7A6D7C6B6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4EA4EDB1F2441F4B9BC2AF7 /* Roboto-Regular.ttf */; };
-		3FBB7718C1D64F69894195FE /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A13CC0445E949D791709D34 /* AntDesign.ttf */; };
-		6A119E0C463949E3A79173AA /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3B0A89CD56C48049FB26751 /* Entypo.ttf */; };
-		61F4CE29B0BE4E36A88E887C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EDF8FBBBBB546EBA9C6FB63 /* EvilIcons.ttf */; };
 		BB6CF99590D64587B5122EDA /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 637F7AB2DDF540039C39B680 /* Feather.ttf */; };
 		00633E19292E4BF3B5E29523 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B60EC89310EC44B1A15B3A79 /* FontAwesome.ttf */; };
-		2A570BDD825546FBBC94E2CB /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1954925AA084B87B9DBBB03 /* FontAwesome5_Brands.ttf */; };
-		CDEB243DBB3D43EBB4BB6A89 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5E94A0D82CA4D7BA93277FE /* FontAwesome5_Regular.ttf */; };
-		BB3F3A49617045B5976D85B2 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFBC0CB711941EEB135B7A1 /* FontAwesome5_Solid.ttf */; };
-		37EB349D9E904911BFC08A50 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2E4198D6140489583833375 /* Fontisto.ttf */; };
-		3C29AD9796524D87B48AC2B3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A249A51CEC48A88BD89D08 /* Foundation.ttf */; };
-		E9B75B76947F491A8A6966B2 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F2D6993476442E1BE028478 /* Ionicons.ttf */; };
-		2F1F73A878304117B23E79AB /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118D95226F634F44A859BFC4 /* MaterialCommunityIcons.ttf */; };
-		A3238378236B4567AE2ABD14 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5B342EB92F548629C6F0674 /* MaterialIcons.ttf */; };
-		27BFCE6489474803AEAF547C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27444F7B39E7412F9758AB46 /* Octicons.ttf */; };
-		C495AC623BC84603B78DCB66 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22151F37AD424A10B4838B05 /* SimpleLineIcons.ttf */; };
-		9BDC6328E969421A8BE2838B /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D708449E78A649D7B64D86C7 /* Zocial.ttf */; };
+		29E2E7CCC5AC478883C1033F /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FBEE0D4292E41A1BAE836BF /* Ubuntu-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,64 +34,51 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = basernproject;
+			remoteInfo = ecoleta;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "basernproject-tvOS";
+			remoteInfo = "ecoleta-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* basernprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basernprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ecoletaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoletaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* basernprojectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = basernprojectTests.m; sourceTree = "<group>"; };
-		0B32E30124374EF66F22F144 /* libPods-basernproject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basernproject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F36FD6641BD6D81442298FE /* libPods-basernproject-basernprojectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basernproject-basernprojectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* basernproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basernproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = basernproject/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = basernproject/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = basernproject/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = basernproject/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = basernproject/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* basernproject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "basernproject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* basernproject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "basernproject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DAE40E563D5409120515C05 /* Pods-basernproject-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-basernproject-tvOS/Pods-basernproject-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4DC3286782267089D12A053B /* libPods-basernproject-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basernproject-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8010B05BCFEEF7B2DE0098FC /* libPods-basernproject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basernproject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = basernproject/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		920AE01196CF291853BA329C /* Pods-basernproject-basernprojectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject-basernprojectTests.release.xcconfig"; path = "Target Support Files/Pods-basernproject-basernprojectTests/Pods-basernproject-basernprojectTests.release.xcconfig"; sourceTree = "<group>"; };
-		A4096936F8A21A29A78A2722 /* Pods-basernproject-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-basernproject-tvOSTests/Pods-basernproject-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A73D6623F5213E78782B8867 /* Pods-basernproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject.release.xcconfig"; path = "Target Support Files/Pods-basernproject/Pods-basernproject.release.xcconfig"; sourceTree = "<group>"; };
-		BCCF69254288BC7566338DA6 /* Pods-basernproject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-basernproject-tvOS/Pods-basernproject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C08C308E478E4A49AB617A33 /* Pods-basernproject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-basernproject-tvOSTests/Pods-basernproject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B2C53165757B8DB1E88994 /* Pods-basernproject-basernprojectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject-basernprojectTests.debug.xcconfig"; path = "Target Support Files/Pods-basernproject-basernprojectTests/Pods-basernproject-basernprojectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ecoletaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ecoletaTests.m; sourceTree = "<group>"; };
+		0B32E30124374EF66F22F144 /* libPods-ecoleta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecoleta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F36FD6641BD6D81442298FE /* libPods-ecoleta-ecoletaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecoleta-ecoletaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* ecoleta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecoleta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ecoleta/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ecoleta/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ecoleta/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ecoleta/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ecoleta/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ecoleta-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ecoleta-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ecoleta-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ecoleta-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAE40E563D5409120515C05 /* Pods-ecoleta-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ecoleta-tvOS/Pods-ecoleta-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC3286782267089D12A053B /* libPods-ecoleta-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecoleta-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8010B05BCFEEF7B2DE0098FC /* libPods-ecoleta-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecoleta-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ecoleta/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		920AE01196CF291853BA329C /* Pods-ecoleta-ecoletaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta-ecoletaTests.release.xcconfig"; path = "Target Support Files/Pods-ecoleta-ecoletaTests/Pods-ecoleta-ecoletaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4096936F8A21A29A78A2722 /* Pods-ecoleta-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ecoleta-tvOSTests/Pods-ecoleta-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A73D6623F5213E78782B8867 /* Pods-ecoleta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta.release.xcconfig"; path = "Target Support Files/Pods-ecoleta/Pods-ecoleta.release.xcconfig"; sourceTree = "<group>"; };
+		BCCF69254288BC7566338DA6 /* Pods-ecoleta-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ecoleta-tvOS/Pods-ecoleta-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C08C308E478E4A49AB617A33 /* Pods-ecoleta-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ecoleta-tvOSTests/Pods-ecoleta-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B2C53165757B8DB1E88994 /* Pods-ecoleta-ecoletaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta-ecoletaTests.debug.xcconfig"; path = "Target Support Files/Pods-ecoleta-ecoletaTests/Pods-ecoleta-ecoletaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F3E913972B31574447799D3B /* Pods-basernproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basernproject.debug.xcconfig"; path = "Target Support Files/Pods-basernproject/Pods-basernproject.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E913972B31574447799D3B /* Pods-ecoleta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecoleta.debug.xcconfig"; path = "Target Support Files/Pods-ecoleta/Pods-ecoleta.debug.xcconfig"; sourceTree = "<group>"; };
 		33CDC7C31C0F4624A942B9C6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A8AFF0567FF94A678398829C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F4EA4EDB1F2441F4B9BC2AF7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7A13CC0445E949D791709D34 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B3B0A89CD56C48049FB26751 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8EDF8FBBBBB546EBA9C6FB63 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		637F7AB2DDF540039C39B680 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B60EC89310EC44B1A15B3A79 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B1954925AA084B87B9DBBB03 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B5E94A0D82CA4D7BA93277FE /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BFFBC0CB711941EEB135B7A1 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D2E4198D6140489583833375 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D4A249A51CEC48A88BD89D08 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4F2D6993476442E1BE028478 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		118D95226F634F44A859BFC4 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A5B342EB92F548629C6F0674 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		27444F7B39E7412F9758AB46 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		22151F37AD424A10B4838B05 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D708449E78A649D7B64D86C7 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FBEE0D4292E41A1BAE836BF /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Bold.ttf"; path = "../assets/fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5A2E9E15985BB9A5A338FCD /* libPods-basernproject-basernprojectTests.a in Frameworks */,
+				C5A2E9E15985BB9A5A338FCD /* libPods-ecoleta-ecoletaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE1035BF7DE317FE9E328C2 /* libPods-basernproject.a in Frameworks */,
+				6DE1035BF7DE317FE9E328C2 /* libPods-ecoleta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D043758AFC733BDBB3991E /* libPods-basernproject-tvOS.a in Frameworks */,
+				D9D043758AFC733BDBB3991E /* libPods-ecoleta-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,20 +110,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D661D060C3F808F4D682CEBA /* libPods-basernproject-tvOSTests.a in Frameworks */,
+				D661D060C3F808F4D682CEBA /* libPods-ecoleta-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* basernprojectTests */ = {
+		00E356EF1AD99517003FC87E /* ecoletaTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* basernprojectTests.m */,
+				00E356F21AD99517003FC87E /* ecoletaTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = basernprojectTests;
+			path = ecoletaTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -160,7 +134,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* basernproject */ = {
+		13B07FAE1A68108700A75B9A /* ecoleta */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -171,7 +145,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = basernproject;
+			name = ecoleta;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -179,10 +153,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0B32E30124374EF66F22F144 /* libPods-basernproject.a */,
-				0F36FD6641BD6D81442298FE /* libPods-basernproject-basernprojectTests.a */,
-				4DC3286782267089D12A053B /* libPods-basernproject-tvOS.a */,
-				8010B05BCFEEF7B2DE0098FC /* libPods-basernproject-tvOSTests.a */,
+				0B32E30124374EF66F22F144 /* libPods-ecoleta.a */,
+				0F36FD6641BD6D81442298FE /* libPods-ecoleta-ecoletaTests.a */,
+				4DC3286782267089D12A053B /* libPods-ecoleta-tvOS.a */,
+				8010B05BCFEEF7B2DE0098FC /* libPods-ecoleta-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,9 +171,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* basernproject */,
+				13B07FAE1A68108700A75B9A /* ecoleta */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* basernprojectTests */,
+				00E356EF1AD99517003FC87E /* ecoletaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				896751923113820FB4EA36BE /* Pods */,
@@ -213,10 +187,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* basernproject.app */,
-				00E356EE1AD99517003FC87E /* basernprojectTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* basernproject-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* basernproject-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ecoleta.app */,
+				00E356EE1AD99517003FC87E /* ecoletaTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ecoleta-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ecoleta-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,14 +198,14 @@
 		896751923113820FB4EA36BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3E913972B31574447799D3B /* Pods-basernproject.debug.xcconfig */,
-				A73D6623F5213E78782B8867 /* Pods-basernproject.release.xcconfig */,
-				D5B2C53165757B8DB1E88994 /* Pods-basernproject-basernprojectTests.debug.xcconfig */,
-				920AE01196CF291853BA329C /* Pods-basernproject-basernprojectTests.release.xcconfig */,
-				2DAE40E563D5409120515C05 /* Pods-basernproject-tvOS.debug.xcconfig */,
-				BCCF69254288BC7566338DA6 /* Pods-basernproject-tvOS.release.xcconfig */,
-				C08C308E478E4A49AB617A33 /* Pods-basernproject-tvOSTests.debug.xcconfig */,
-				A4096936F8A21A29A78A2722 /* Pods-basernproject-tvOSTests.release.xcconfig */,
+				F3E913972B31574447799D3B /* Pods-ecoleta.debug.xcconfig */,
+				A73D6623F5213E78782B8867 /* Pods-ecoleta.release.xcconfig */,
+				D5B2C53165757B8DB1E88994 /* Pods-ecoleta-ecoletaTests.debug.xcconfig */,
+				920AE01196CF291853BA329C /* Pods-ecoleta-ecoletaTests.release.xcconfig */,
+				2DAE40E563D5409120515C05 /* Pods-ecoleta-tvOS.debug.xcconfig */,
+				BCCF69254288BC7566338DA6 /* Pods-ecoleta-tvOS.release.xcconfig */,
+				C08C308E478E4A49AB617A33 /* Pods-ecoleta-tvOSTests.debug.xcconfig */,
+				A4096936F8A21A29A78A2722 /* Pods-ecoleta-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -243,22 +217,9 @@
 				33CDC7C31C0F4624A942B9C6 /* Roboto-Bold.ttf */,
 				A8AFF0567FF94A678398829C /* Roboto-Medium.ttf */,
 				F4EA4EDB1F2441F4B9BC2AF7 /* Roboto-Regular.ttf */,
-				7A13CC0445E949D791709D34 /* AntDesign.ttf */,
-				B3B0A89CD56C48049FB26751 /* Entypo.ttf */,
-				8EDF8FBBBBB546EBA9C6FB63 /* EvilIcons.ttf */,
 				637F7AB2DDF540039C39B680 /* Feather.ttf */,
 				B60EC89310EC44B1A15B3A79 /* FontAwesome.ttf */,
-				B1954925AA084B87B9DBBB03 /* FontAwesome5_Brands.ttf */,
-				B5E94A0D82CA4D7BA93277FE /* FontAwesome5_Regular.ttf */,
-				BFFBC0CB711941EEB135B7A1 /* FontAwesome5_Solid.ttf */,
-				D2E4198D6140489583833375 /* Fontisto.ttf */,
-				D4A249A51CEC48A88BD89D08 /* Foundation.ttf */,
-				4F2D6993476442E1BE028478 /* Ionicons.ttf */,
-				118D95226F634F44A859BFC4 /* MaterialCommunityIcons.ttf */,
-				A5B342EB92F548629C6F0674 /* MaterialIcons.ttf */,
-				27444F7B39E7412F9758AB46 /* Octicons.ttf */,
-				22151F37AD424A10B4838B05 /* SimpleLineIcons.ttf */,
-				D708449E78A649D7B64D86C7 /* Zocial.ttf */,
+				5FBEE0D4292E41A1BAE836BF /* Ubuntu-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -267,9 +228,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* basernprojectTests */ = {
+		00E356ED1AD99517003FC87E /* ecoletaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "basernprojectTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ecoletaTests" */;
 			buildPhases = (
 				99B57772D4E3BBB71ECEB08D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -282,14 +243,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = basernprojectTests;
-			productName = basernprojectTests;
-			productReference = 00E356EE1AD99517003FC87E /* basernprojectTests.xctest */;
+			name = ecoletaTests;
+			productName = ecoletaTests;
+			productReference = 00E356EE1AD99517003FC87E /* ecoletaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* basernproject */ = {
+		13B07F861A680F5B00A75B9A /* ecoleta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "basernproject" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ecoleta" */;
 			buildPhases = (
 				0420A8CB575674623975BAD1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -303,14 +264,14 @@
 			);
 			dependencies = (
 			);
-			name = basernproject;
-			productName = basernproject;
-			productReference = 13B07F961A680F5B00A75B9A /* basernproject.app */;
+			name = ecoleta;
+			productName = ecoleta;
+			productReference = 13B07F961A680F5B00A75B9A /* ecoleta.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* basernproject-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ecoleta-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "basernproject-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ecoleta-tvOS" */;
 			buildPhases = (
 				CA2691919A07F07A150F36BC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -323,14 +284,14 @@
 			);
 			dependencies = (
 			);
-			name = "basernproject-tvOS";
-			productName = "basernproject-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* basernproject-tvOS.app */;
+			name = "ecoleta-tvOS";
+			productName = "ecoleta-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ecoleta-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* basernproject-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ecoleta-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "basernproject-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ecoleta-tvOSTests" */;
 			buildPhases = (
 				30F0657714A30065FBB70FBB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -342,9 +303,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "basernproject-tvOSTests";
-			productName = "basernproject-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* basernproject-tvOSTests.xctest */;
+			name = "ecoleta-tvOSTests";
+			productName = "ecoleta-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ecoleta-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -373,7 +334,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "basernproject" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ecoleta" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -386,10 +347,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* basernproject */,
-				00E356ED1AD99517003FC87E /* basernprojectTests */,
-				2D02E47A1E0B4A5D006451C7 /* basernproject-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* basernproject-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ecoleta */,
+				00E356ED1AD99517003FC87E /* ecoletaTests */,
+				2D02E47A1E0B4A5D006451C7 /* ecoleta-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ecoleta-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -411,22 +372,9 @@
 				C120E60C56464BC2AF32BA44 /* Roboto-Bold.ttf in Resources */,
 				F4F92EDB8F124E6199D2E807 /* Roboto-Medium.ttf in Resources */,
 				D30C02DB244945B7A6D7C6B6 /* Roboto-Regular.ttf in Resources */,
-				3FBB7718C1D64F69894195FE /* AntDesign.ttf in Resources */,
-				6A119E0C463949E3A79173AA /* Entypo.ttf in Resources */,
-				61F4CE29B0BE4E36A88E887C /* EvilIcons.ttf in Resources */,
 				BB6CF99590D64587B5122EDA /* Feather.ttf in Resources */,
 				00633E19292E4BF3B5E29523 /* FontAwesome.ttf in Resources */,
-				2A570BDD825546FBBC94E2CB /* FontAwesome5_Brands.ttf in Resources */,
-				CDEB243DBB3D43EBB4BB6A89 /* FontAwesome5_Regular.ttf in Resources */,
-				BB3F3A49617045B5976D85B2 /* FontAwesome5_Solid.ttf in Resources */,
-				37EB349D9E904911BFC08A50 /* Fontisto.ttf in Resources */,
-				3C29AD9796524D87B48AC2B3 /* Foundation.ttf in Resources */,
-				E9B75B76947F491A8A6966B2 /* Ionicons.ttf in Resources */,
-				2F1F73A878304117B23E79AB /* MaterialCommunityIcons.ttf in Resources */,
-				A3238378236B4567AE2ABD14 /* MaterialIcons.ttf in Resources */,
-				27BFCE6489474803AEAF547C /* Octicons.ttf in Resources */,
-				C495AC623BC84603B78DCB66 /* SimpleLineIcons.ttf in Resources */,
-				9BDC6328E969421A8BE2838B /* Zocial.ttf in Resources */,
+				29E2E7CCC5AC478883C1033F /* Ubuntu-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +425,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-basernproject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ecoleta-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -513,7 +461,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-basernproject-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ecoleta-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -526,7 +474,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-basernproject-basernprojectTests/Pods-basernproject-basernprojectTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ecoleta-ecoletaTests/Pods-ecoleta-ecoletaTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -535,7 +483,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-basernproject-basernprojectTests/Pods-basernproject-basernprojectTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ecoleta-ecoletaTests/Pods-ecoleta-ecoletaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7673B7292A47C1F4F6B8C9E4 /* [CP] Copy Pods Resources */ = {
@@ -544,7 +492,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-basernproject/Pods-basernproject-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ecoleta/Pods-ecoleta-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -553,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-basernproject/Pods-basernproject-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ecoleta/Pods-ecoleta-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99B57772D4E3BBB71ECEB08D /* [CP] Check Pods Manifest.lock */ = {
@@ -571,7 +519,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-basernproject-basernprojectTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ecoleta-ecoletaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -593,7 +541,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-basernproject-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ecoleta-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -645,7 +593,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* basernprojectTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ecoletaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +619,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* basernprojectTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ecoletaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,12 +628,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* basernproject */;
+			target = 13B07F861A680F5B00A75B9A /* ecoleta */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* basernproject-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ecoleta-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -693,14 +641,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5B2C53165757B8DB1E88994 /* Pods-basernproject-basernprojectTests.debug.xcconfig */;
+			baseConfigurationReference = D5B2C53165757B8DB1E88994 /* Pods-ecoleta-ecoletaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = basernprojectTests/Info.plist;
+				INFOPLIST_FILE = ecoletaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -710,17 +658,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basernproject.app/basernproject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoleta.app/ecoleta";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 920AE01196CF291853BA329C /* Pods-basernproject-basernprojectTests.release.xcconfig */;
+			baseConfigurationReference = 920AE01196CF291853BA329C /* Pods-ecoleta-ecoletaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = basernprojectTests/Info.plist;
+				INFOPLIST_FILE = ecoletaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -730,19 +678,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basernproject.app/basernproject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoleta.app/ecoleta";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3E913972B31574447799D3B /* Pods-basernproject.debug.xcconfig */;
+			baseConfigurationReference = F3E913972B31574447799D3B /* Pods-ecoleta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = basernproject/Info.plist;
+				INFOPLIST_FILE = ecoleta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -750,7 +698,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = basernproject;
+				PRODUCT_NAME = ecoleta;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -759,12 +707,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A73D6623F5213E78782B8867 /* Pods-basernproject.release.xcconfig */;
+			baseConfigurationReference = A73D6623F5213E78782B8867 /* Pods-ecoleta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = basernproject/Info.plist;
+				INFOPLIST_FILE = ecoleta/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -772,7 +720,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = basernproject;
+				PRODUCT_NAME = ecoleta;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -780,7 +728,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DAE40E563D5409120515C05 /* Pods-basernproject-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2DAE40E563D5409120515C05 /* Pods-ecoleta-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -791,14 +739,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "basernproject-tvOS/Info.plist";
+				INFOPLIST_FILE = "ecoleta-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.basernproject-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ecoleta-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -808,7 +756,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCCF69254288BC7566338DA6 /* Pods-basernproject-tvOS.release.xcconfig */;
+			baseConfigurationReference = BCCF69254288BC7566338DA6 /* Pods-ecoleta-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -819,14 +767,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "basernproject-tvOS/Info.plist";
+				INFOPLIST_FILE = "ecoleta-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.basernproject-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ecoleta-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -836,7 +784,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C08C308E478E4A49AB617A33 /* Pods-basernproject-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = C08C308E478E4A49AB617A33 /* Pods-ecoleta-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -846,24 +794,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "basernproject-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ecoleta-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.basernproject-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ecoleta-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basernproject-tvOS.app/basernproject-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoleta-tvOS.app/ecoleta-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4096936F8A21A29A78A2722 /* Pods-basernproject-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A4096936F8A21A29A78A2722 /* Pods-ecoleta-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -873,17 +821,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "basernproject-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ecoleta-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.basernproject-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ecoleta-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/basernproject-tvOS.app/basernproject-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ecoleta-tvOS.app/ecoleta-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1004,7 +952,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "basernprojectTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ecoletaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1013,7 +961,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "basernproject" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ecoleta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1022,7 +970,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "basernproject-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ecoleta-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1031,7 +979,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "basernproject-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ecoleta-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1040,7 +988,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "basernproject" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ecoleta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

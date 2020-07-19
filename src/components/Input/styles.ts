@@ -2,15 +2,12 @@ import styled from 'styled-components/native';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 export const Container = styled.View`
-  width: 100%;
-  height: 56px;
-  padding: 0 16px;
+  height: 60px;
   background: #fff;
-  border-radius: 8px;
-  margin-bottom: 16px;
-
-  flex-direction: row;
-  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  padding: 0 24px;
+  font-size: 16px;
 `;
 
 export const TextInput = styled.TextInput`

@@ -1,12 +1,14 @@
 import 'react-native-gesture-handler';
-
 import React, { useEffect } from 'react';
-import { SafeAreaView, StatusBar } from 'react-native';
+import { SafeAreaView, StatusBar, YellowBox } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import SplashScreen from 'react-native-splash-screen';
 
-import AppProvider from './hooks';
 import Routes from './routes';
+
+YellowBox.ignoreWarnings([
+  'VirtualizedLists should never be nested inside plain ScrollViews with the same orientation',
+]);
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -15,12 +17,14 @@ const App: React.FC = () => {
 
   return (
     <NavigationContainer>
-      <StatusBar barStyle="light-content" backgroundColor="#bbb" />
-      <AppProvider>
-        <SafeAreaView style={{ flex: 1, backgroundColor: '#bbb' }}>
-          <Routes />
-        </SafeAreaView>
-      </AppProvider>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <SafeAreaView style={{ flex: 1, backgroundColor: '#F0F0F5' }}>
+        <Routes />
+      </SafeAreaView>
     </NavigationContainer>
   );
 };

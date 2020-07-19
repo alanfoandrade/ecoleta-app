@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "basernproject-tvOS.app"
-               BlueprintName = "basernproject-tvOS"
-               ReferencedContainer = "container:basernproject.xcodeproj">
+               BuildableName = "ecoleta-tvOS.app"
+               BlueprintName = "ecoleta-tvOS"
+               ReferencedContainer = "container:ecoleta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "basernproject-tvOSTests.xctest"
-               BlueprintName = "basernproject-tvOSTests"
-               ReferencedContainer = "container:basernproject.xcodeproj">
+               BuildableName = "ecoleta-tvOSTests.xctest"
+               BlueprintName = "ecoleta-tvOSTests"
+               ReferencedContainer = "container:ecoleta.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "basernproject-tvOS.app"
-            BlueprintName = "basernproject-tvOS"
-            ReferencedContainer = "container:basernproject.xcodeproj">
+            BuildableName = "ecoleta-tvOS.app"
+            BlueprintName = "ecoleta-tvOS"
+            ReferencedContainer = "container:ecoleta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "basernproject-tvOS.app"
-            BlueprintName = "basernproject-tvOS"
-            ReferencedContainer = "container:basernproject.xcodeproj">
+            BuildableName = "ecoleta-tvOS.app"
+            BlueprintName = "ecoleta-tvOS"
+            ReferencedContainer = "container:ecoleta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
