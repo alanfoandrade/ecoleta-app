@@ -103,7 +103,7 @@ const Points: React.FC = () => {
       const selectedLocation = `${city?.name || ''}, ${state?.name || ''}`;
 
       const response = await axios.get<IGoogleResponse>(
-        `https://maps.googleapis.com/maps/api/geocode/json?address=${selectedLocation}&key=AIzaSyCrcTIDgo7GRhc0kUe0CyNbt-LyFXx5ndA`,
+        `https://maps.googleapis.com/maps/api/geocode/json?address=${selectedLocation}&key=AIzaSyDVtHJRteLkdPS2FJGgLVjR9YuUgQDxL7M`,
       );
 
       const { lat, lng } = response.data.results[0].geometry.location;
